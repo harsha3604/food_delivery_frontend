@@ -1,0 +1,53 @@
+.increment-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .increment-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+
+  }
+  
+  .increment-button.clicked {
+    padding-right: 35px;
+  }
+  
+  .increment-button.clicked span:first-of-type {
+    margin-right: 10px;
+  }
+  
+  .increment-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  
+  .increment-control {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #ff6600;
+    border: 2px solid #ff6600;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .increment-control:hover {
+    background-color: #ff6600;
+    color: #ffffff;
+  }
+  

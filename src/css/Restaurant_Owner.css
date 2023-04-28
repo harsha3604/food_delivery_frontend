@@ -1,0 +1,65 @@
+/*-----------------------------------------------------  RestaurantList.js  ----------------------------------------- */
+.Table{
+    position: relative; /* change to relative */
+    z-index: 2;
+    left: 0%;
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size-adjust: initial;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(32, 32, 32, 0.3);
+    text-align: center;
+}
+
+.LogoutButton{
+    position: relative;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transform: translate(1150%,110%);
+    text-decoration: none;
+    cursor:pointer;
+    text-align: center;
+    margin: 0;
+}
+
+/*-----------------------------------------------------  RestaurantUpdate.js  ----------------------------------------- */
+.Signup {
+    max-width: 400px; /* set a fixed width for the form */
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 4px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 0 auto; /* center the form horizontally */
+    margin-top: 1%; /* adjust the top margin to center the form vertically */
+}
+
+.Signup input[type=text],
+.Signup input[type=password],.Signup input[type=email],.Signup input[type=number]{
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    width: 60%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.SignupButton{
+    position: relative;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor:pointer;
+}
+

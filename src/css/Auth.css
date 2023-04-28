@@ -1,0 +1,118 @@
+/*-----------------------------------------------------  Home.js  ----------------------------------------- */
+.Page {
+background-color: #ffffff;
+height: 100vh;
+margin: 0;
+padding: 0;
+}
+
+.Header {
+text-align: center;
+padding-top: 10%;
+}
+
+.Header h1 {
+font-size: 3rem;
+color: #ff6347;
+}
+
+.Header h2 {
+font-size: 1.5rem;
+color: #354f52;
+margin-top: 20px;
+}
+
+.RouteButton {
+position: relative;
+width: 100%;
+height: 0;
+padding-bottom: 10%;
+}
+
+.LinkRoute {
+position: absolute;
+bottom: 10%;
+left: 50%;
+transform: translateX(-50%);
+background-color: #ff6347;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+/*-----------------------------------------------------  Login.js  ----------------------------------------- */
+
+.Login {
+    max-width: 400px; /* set a fixed width for the form */
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 4px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 0 auto; /* center the form horizontally */
+    margin-top: 10%; /* adjust the top margin to center the form vertically */
+}
+
+.Login input[type=text],
+.Login input[type=password],.Login input[type=email]{
+    padding: 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+}
+.LoginButton{
+    position: relative;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------  UserCreate.js  ----------------------------------------- */
+.Signup {
+    max-width: 400px; /* set a fixed width for the form */
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 4px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 0 auto; /* center the form horizontally */
+    margin-top: 1.5%; /* adjust the top margin to center the form vertically */
+}
+
+.Signup input[type=text],
+.Signup input[type=password],.Signup input[type=email]{
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.SignupButton{
+    position: relative;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.RoleSelect{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #444;
+}
